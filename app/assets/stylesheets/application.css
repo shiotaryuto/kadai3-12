@@ -63,6 +63,12 @@ th {
   padding-bottom: 5px;
 }
 
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 7px;
+}
+
 tbody {
   display: table-row-group;
   vertical-align: middle;
@@ -83,13 +89,17 @@ h4 {
   display: block;
 }
 
-.f.text_field {
+.field {
   padding: 1px 2px;
 }
 
-.f.submit {
+.field-body {
   margin-bottom: 10px;
 }
+
+.action {
+  margin-bottom: 10px;
+  }
 
 p {
   font-family: verdana, arial, helvetica, sans-serif;
